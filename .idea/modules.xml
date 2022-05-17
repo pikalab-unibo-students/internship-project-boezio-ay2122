@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChocoKt.iml" filepath="$PROJECT_DIR$/.idea/modules/ChocoKt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2p-kt-example/ChocoKt.2p-kt-example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/2p-kt-example/ChocoKt.2p-kt-example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2p-kt-example/ChocoKt.2p-kt-example.test.iml" filepath="$PROJECT_DIR$/.idea/modules/2p-kt-example/ChocoKt.2p-kt-example.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/boolean_variables/ChocoKt.boolean_variables.main.iml" filepath="$PROJECT_DIR$/.idea/modules/boolean_variables/ChocoKt.boolean_variables.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/boolean_variables/ChocoKt.boolean_variables.test.iml" filepath="$PROJECT_DIR$/.idea/modules/boolean_variables/ChocoKt.boolean_variables.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clp-core/ChocoKt.clp-core.iml" filepath="$PROJECT_DIR$/.idea/modules/clp-core/ChocoKt.clp-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clpb/ChocoKt.clpb.iml" filepath="$PROJECT_DIR$/.idea/modules/clpb/ChocoKt.clpb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clpfd/ChocoKt.clpfd.iml" filepath="$PROJECT_DIR$/.idea/modules/clpfd/ChocoKt.clpfd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clpqr/ChocoKt.clpqr.iml" filepath="$PROJECT_DIR$/.idea/modules/clpqr/ChocoKt.clpqr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fifth_example/ChocoKt.fifth_example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fifth_example/ChocoKt.fifth_example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fifth_example/ChocoKt.fifth_example.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fifth_example/ChocoKt.fifth_example.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/first_example/ChocoKt.first_example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/first_example/ChocoKt.first_example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/first_example/ChocoKt.first_example.test.iml" filepath="$PROJECT_DIR$/.idea/modules/first_example/ChocoKt.first_example.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fourth_example/ChocoKt.fourth_example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fourth_example/ChocoKt.fourth_example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fourth_example/ChocoKt.fourth_example.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fourth_example/ChocoKt.fourth_example.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChocoKt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChocoKt.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/precision/ChocoKt.precision.main.iml" filepath="$PROJECT_DIR$/.idea/modules/precision/ChocoKt.precision.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/precision/ChocoKt.precision.test.iml" filepath="$PROJECT_DIR$/.idea/modules/precision/ChocoKt.precision.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/real_variables/ChocoKt.real_variables.main.iml" filepath="$PROJECT_DIR$/.idea/modules/real_variables/ChocoKt.real_variables.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/real_variables/ChocoKt.real_variables.test.iml" filepath="$PROJECT_DIR$/.idea/modules/real_variables/ChocoKt.real_variables.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/second_example/ChocoKt.second_example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/second_example/ChocoKt.second_example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/second_example/ChocoKt.second_example.test.iml" filepath="$PROJECT_DIR$/.idea/modules/second_example/ChocoKt.second_example.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sixth_example/ChocoKt.sixth_example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sixth_example/ChocoKt.sixth_example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sixth_example/ChocoKt.sixth_example.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sixth_example/ChocoKt.sixth_example.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/third_example/ChocoKt.third_example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/third_example/ChocoKt.third_example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/third_example/ChocoKt.third_example.test.iml" filepath="$PROJECT_DIR$/.idea/modules/third_example/ChocoKt.third_example.test.iml" />
+    </modules>
+  </component>
+</project>
