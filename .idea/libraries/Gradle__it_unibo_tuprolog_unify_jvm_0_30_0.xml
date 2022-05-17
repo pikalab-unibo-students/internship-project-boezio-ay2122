@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: it.unibo.tuprolog:unify-jvm:0.30.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.unibo.tuprolog/unify-jvm/0.30.0/be243d04fc726ba5ab7d064b552f6dfba001fb07/unify-jvm-0.30.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.unibo.tuprolog/unify-jvm/0.30.0/bbdb1de9e11359071ede81b7c1d5fe072c8c6d72/unify-jvm-0.30.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

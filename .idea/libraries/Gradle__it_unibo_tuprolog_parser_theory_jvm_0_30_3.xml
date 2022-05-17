@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: it.unibo.tuprolog:parser-theory-jvm:0.30.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.unibo.tuprolog/parser-theory-jvm/0.30.3/64347214270a7747232d9c63ce6e896c3466e210/parser-theory-jvm-0.30.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.unibo.tuprolog/parser-theory-jvm/0.30.3/6985c489486a3cd17d19237553b87f7558360ec/parser-theory-jvm-0.30.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
