@@ -9,4 +9,3 @@
 
 rootProject.name = "ChocoKt"
 include("clp-var-creation")
-
