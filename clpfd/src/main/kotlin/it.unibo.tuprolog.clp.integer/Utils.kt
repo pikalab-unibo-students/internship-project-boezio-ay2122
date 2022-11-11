@@ -1,4 +1,4 @@
-package clpfd
+package it.unibo.tuprolog.clp.integer
 
 import clpCore.chocoModel
 import clpCore.getOuterVariable

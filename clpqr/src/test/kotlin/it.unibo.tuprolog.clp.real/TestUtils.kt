@@ -1,4 +1,4 @@
-package clpqr
+package it.unibo.tuprolog.clp.real
 
 import it.unibo.tuprolog.core.Real
 import it.unibo.tuprolog.core.Substitution
@@ -6,7 +6,6 @@ import it.unibo.tuprolog.core.Term
 import it.unibo.tuprolog.core.Var
 import it.unibo.tuprolog.solve.Solution
 import kotlin.math.abs
-import kotlin.math.exp
 import kotlin.test.assertIs
 import kotlin.test.fail
 
