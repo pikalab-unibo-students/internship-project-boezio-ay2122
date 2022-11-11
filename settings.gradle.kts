@@ -8,7 +8,7 @@
  */
 
 rootProject.name = "ChocoKt"
-include("clp-var-creation")
+include("clpfd")
 include("clpqr")
 include("clp-core")
 include("clpb")
