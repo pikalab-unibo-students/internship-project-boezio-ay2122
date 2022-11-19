@@ -1,51 +1,29 @@
 [versions]
 kotlin = "1.7.21"
-dokka = "1.7.20"
 jvm = "1.8"
-node = "16.17.1"
-npmPublish = "2.1.2"
 jackson = "2.13.4"
 orchid = "0.21.1"
 antlr = "4.11.1"
 kotlinx-coroutines = "1.6.4"
-javafx = "20-ea+1"
-npm-yaml = "1.10.0" # yaml
-npm-tuprolog-parserUtils = "0.4.1" # @tuprolog/parser-utils
-npm-syncRequest = "6.1.0" # sync-request
-ktlint = "10.3.0"
-detekt = "1.21.0"
+
+tuprolog = "0.30.0"
 
 [plugins]
-ktNpmPublish = "io.github.gciatto.kt-npm-publish:0.3.9"
 gitSemVer = "org.danilopianini.git-sensitive-semantic-versioning:0.3.0"
-#npmPublish = { id = "dev.petuska.npm.publish", version.ref = "npmPublish" }
 nexusPublish = "de.marcphilipp.nexus-publish:0.4.0"
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
-kotlin-js = { id = "org.jetbrains.kotlin.js", version.ref = "kotlin" }
-kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
-dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
 orchid = { id = "com.eden.orchidPlugin", version.ref = "orchid" }
 shadowJar = "com.github.johnrengelman.shadow:7.1.2"
-javafx = "org.openjfx.javafxplugin:0.0.13"
-ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }
-ktlint-idea = { id = "org.jlleitschuh.gradle.ktlint-idea", version.ref = "ktlint" }
-detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
 
 [libraries]
-detekt = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detekt" }
-ktlint = { module = "org.jlleitschuh.gradle:ktlint-gradle", version.ref = "ktlint" }
+
 kotlin-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
-ktNpmPublish = "io.github.gciatto:kt-npm-publish:0.3.9"
-#npmPublish = { module = "dev.petuska:npm-publish", version.ref = "npmPublish" }
-dokka = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokka" }
-javafx-graphics = { module = "org.openjfx:javafx-graphics", version.ref = "javafx" }
 jackson-core = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "jackson" }
 jackson-xml = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-xml", version.ref = "jackson" }
 jackson-yaml = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml", version.ref = "jackson" }
 jackson-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "jackson" }
 clikt = "com.github.ajalt:clikt-multiplatform:2.8.0"
 graphviz = "guru.nidi:graphviz-java:0.18.1"
-ktMath = "io.github.gciatto:kt-math:0.6.3"
 orchid-docs = { module = "io.github.javaeden.orchid:OrchidDocs", version.ref = "orchid" }
 orchid-kotlinDocs = { module = "io.github.javaeden.orchid:OrchidKotlindoc", version.ref = "orchid" }
 orchid-pluginDocs = { module = "io.github.javaeden.orchid:OrchidPluginDocs", version.ref = "orchid" }
@@ -58,6 +36,8 @@ kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-t
 kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "kotlin" }
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
 kotlin-stdlib-jvm = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlin" }
-kotlin-stdlib-js = { module = "org.jetbrains.kotlin:kotlin-stdlib-js", version.ref = "kotlin" }
 kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
 javalin = "io.javalin:javalin:4.6.6"
+
+tuprolog-solve-classic = { module = "it.unibo.tuprolog:solve-classic-jvm", version.ref = "tuprolog"}
+tuprolog-parser-theory = { module ="it.unibo.tuprolog:parser-theory-jvm", version.ref = "tuprolog"}

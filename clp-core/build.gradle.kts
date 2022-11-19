@@ -24,8 +24,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
     // This dependency is used by the application.
-    implementation("it.unibo.tuprolog:solve-classic-jvm:0.30.0")
-    implementation("it.unibo.tuprolog:parser-theory-jvm:0.30.0")
+    implementation(libs.versions.tuprolog.solve.classic)
+    implementation(libs.versions.tuprolog.parser.theory)
 
     testImplementation(kotlin("test"))
 }
