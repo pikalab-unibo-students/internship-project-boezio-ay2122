@@ -4,157 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1575954d-2ac3-4dc3-be42-96d731657271" name="Changes" comment="build: update settings.gradle.kts">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="1575954d-2ac3-4dc3-be42-96d731657271" name="Changes" comment="ci: plugin for publication on maven central repository">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ChocoKt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ChocoKt.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ChocoKt.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ChocoKt.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clp-core/ChocoKt.clp-core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clp-core/ChocoKt.clp-core.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/clp-core/ChocoKt.clp-core.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clp-core/ChocoKt.clp-core.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/clp-core/ChocoKt.clp-core.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clpb/ChocoKt.clpb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clpb/ChocoKt.clpb.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/clpb/ChocoKt.clpb.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clpb/ChocoKt.clpb.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/clpb/ChocoKt.clpb.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clpfd/ChocoKt.clpfd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clpfd/ChocoKt.clpfd.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/clpfd/ChocoKt.clpfd.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clpfd/ChocoKt.clpfd.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/clpfd/ChocoKt.clpfd.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clpqr/ChocoKt.clpqr.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clpqr/ChocoKt.clpqr.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/clpqr/ChocoKt.clpqr.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clpqr/ChocoKt.clpqr.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/clpqr/ChocoKt.clpqr.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clp-core/src/main/kotlin/clpCore/ChocoUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clp-core/src/main/kotlin/it.unibo.tuprolog.clp.core/ChocoUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/main/kotlin/clpb/ClpBLibrary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/main/kotlin/it.unibo.tuprolog.clp.boolean/ClpBLibrary.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/main/kotlin/clpb/Labeling.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/main/kotlin/it.unibo.tuprolog.clp.boolean/Labeling.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/main/kotlin/clpb/RandomLabeling.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/main/kotlin/it.unibo.tuprolog.clp.boolean/RandomLabeling.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/main/kotlin/clpb/Sat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/main/kotlin/it.unibo.tuprolog.clp.boolean/Sat.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/main/kotlin/clpb/SatCount.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/main/kotlin/it.unibo.tuprolog.clp.boolean/SatCount.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/main/kotlin/clpb/Taut.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/main/kotlin/it.unibo.tuprolog.clp.boolean/Taut.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/main/kotlin/clpb/WeightedMaximum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/main/kotlin/it.unibo.tuprolog.clp.boolean/WeightedMaximum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/main/kotlin/clpb/utils/BoolExprEvaluator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/main/kotlin/it.unibo.tuprolog.clp.boolean/utils/BoolExprEvaluator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/main/kotlin/clpb/utils/ExpressionParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/main/kotlin/it.unibo.tuprolog.clp.boolean/utils/ExpressionParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/main/kotlin/clpb/utils/UnaryOp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/main/kotlin/it.unibo.tuprolog.clp.boolean/utils/UnaryOp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/main/kotlin/clpb/utils/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/main/kotlin/it.unibo.tuprolog.clp.boolean/utils/Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/test/kotlin/clpb/BaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/test/kotlin/it.unibo.tuprolog.clp.boolean/BaseTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/test/kotlin/clpb/LabelingTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/test/kotlin/it.unibo.tuprolog.clp.boolean/LabelingTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/test/kotlin/clpb/RandomLabelingTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/test/kotlin/it.unibo.tuprolog.clp.boolean/RandomLabelingTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/test/kotlin/clpb/SatCountTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/test/kotlin/it.unibo.tuprolog.clp.boolean/SatCountTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/test/kotlin/clpb/SatTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/test/kotlin/it.unibo.tuprolog.clp.boolean/SatTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/test/kotlin/clpb/TautTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/test/kotlin/it.unibo.tuprolog.clp.boolean/TautTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/test/kotlin/clpb/TestUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/test/kotlin/it.unibo.tuprolog.clp.boolean/TestUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/test/kotlin/clpb/WeightedMaximumTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/test/kotlin/it.unibo.tuprolog.clp.boolean/WeightedMaximumTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/test/kotlin/clpb/utils/BoolExprEvaluatorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/test/kotlin/it.unibo.tuprolog.clp.boolean/utils/BoolExprEvaluatorTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/test/kotlin/clpb/utils/Dummy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/test/kotlin/it.unibo.tuprolog.clp.boolean/utils/Dummy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpb/src/test/kotlin/clpb/utils/ExpressionParserTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpb/src/test/kotlin/it.unibo.tuprolog.clp.boolean/utils/ExpressionParserTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/ClpFdLibrary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/ClpFdLibrary.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/ExpressionParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/ExpressionParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/domain/In.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/domain/In.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/domain/Ins.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/domain/Ins.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/AllDistinct.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/AllDistinct.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/Chain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/Chain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/Circuit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/Circuit.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/CumulativeOne.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/CumulativeOne.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/CumulativeTwo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/CumulativeTwo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/Disjoint2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/Disjoint2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/Element.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/Element.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/GlobalCardinalityThree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/GlobalCardinalityThree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/GlobalCardinalityTwo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/GlobalCardinalityTwo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/LexChain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/LexChain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/LexChainN.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/LexChainN.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/ScalarProduct.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/ScalarProduct.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/Serialized.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/Serialized.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/Sum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/TuplesIn.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/TuplesIn.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/global/TuplesInN.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/global/TuplesInN.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reflection/FdDegree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reflection/FdDegree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reflection/FdDom.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reflection/FdDom.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reflection/FdInf.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reflection/FdInf.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reflection/FdSize.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reflection/FdSize.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reflection/FdSup.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reflection/FdSup.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reflection/FdVar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reflection/FdVar.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reification/And.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reification/And.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reification/BinaryReificationOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reification/BinaryReificationOperator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reification/Iff.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reification/Iff.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reification/Implies.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reification/Implies.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reification/InverseImplies.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reification/InverseImplies.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reification/Not.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reification/Not.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reification/Or.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reification/Or.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reification/ReificationParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reification/ReificationParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reification/UnaryReificationOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reification/UnaryReificationOperator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reification/Xor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reification/Xor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/reification/ZCompare.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/reification/ZCompare.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/relational/BinaryClpOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/relational/BinaryClpOperator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/relational/Equals.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/relational/Equals.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/relational/GreaterEquals.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/relational/GreaterEquals.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/relational/GreaterThan.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/relational/GreaterThan.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/relational/LessEquals.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/relational/LessEquals.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/relational/LessThan.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/relational/LessThan.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/relational/NotEquals.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/relational/NotEquals.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/search/BranchingStrategy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/search/BranchingStrategy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/search/Label.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/search/Label.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/search/Labeling.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/search/Labeling.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/search/LabelingConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/search/LabelingConfiguration.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/search/ProblemType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/search/ProblemType.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/search/ValueOrder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/search/ValueOrder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/main/kotlin/clpfd/search/VariableSelectionStrategy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/main/kotlin/it.unibo.tuprolog.clp.integer/search/VariableSelectionStrategy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/BaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/BaseTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/InsAssignmentTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/InsAssignmentTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/LabelingTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/LabelingTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/ReificationOpTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/ReificationOpTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/RelationalOpTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/RelationalOpTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/TestUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/TestUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/ZCompareTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/ZCompareTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/global/AllDistinctTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/global/AllDistinctTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/global/ChainTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/global/ChainTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/global/CircuitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/global/CircuitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/global/CumulativeOneTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/global/CumulativeOneTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/global/CumulativeTwoTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/global/CumulativeTwoTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/global/Disjoint2Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/global/Disjoint2Test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/global/ElementTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/global/ElementTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/global/GlobalCardinalityThreeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/global/GlobalCardinalityThreeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/global/GlobalCardinalityTwoTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/global/GlobalCardinalityTwoTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/global/LexChainTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/global/LexChainTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/global/ScalarProductTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/global/ScalarProductTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/global/SerializedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/global/SerializedTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/global/SumTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/global/SumTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/global/TuplesInTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/global/TuplesInTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/reflection/FdDegreeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/reflection/FdDegreeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/reflection/FdDomTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/reflection/FdDomTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/reflection/FdInfTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/reflection/FdInfTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/reflection/FdSizeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/reflection/FdSizeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/reflection/FdSupTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/reflection/FdSupTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/reflection/FdVarTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/reflection/FdVarTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/utils/Dummy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/utils/Dummy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/utils/ExpressionParserTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/utils/ExpressionParserTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpfd/src/test/kotlin/clpfd/utils/ProblemTypeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpfd/src/test/kotlin/it.unibo.tuprolog.clp.integer/utils/ProblemTypeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/ClpQRLibrary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/ClpQRLibrary.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/Constraint.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/Constraint.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/Dump.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/Dump.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/Entailed.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/Entailed.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/Precision.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/Precision.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/Satisfy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/Satisfy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/mip/BBInfFive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/mip/BBInfFive.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/mip/BBInfFour.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/mip/BBInfFour.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/mip/BBInfThree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/mip/BBInfThree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/optimization/Inf.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/optimization/Inf.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/optimization/Maximize.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/optimization/Maximize.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/optimization/Minimize.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/optimization/Minimize.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/optimization/Optimize.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/optimization/Optimize.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/optimization/Optimum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/optimization/Optimum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/optimization/Sup.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/optimization/Sup.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/search/Configuration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/search/Configuration.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/search/ProblemType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/search/ProblemType.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/utils/ConstraintChecker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/utils/ConstraintChecker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/utils/ConstraintImposer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/utils/ConstraintImposer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/utils/ConstraintReplacer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/utils/ConstraintReplacer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/utils/EquationDetector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/utils/EquationDetector.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/utils/ExpressionEvaluator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/utils/ExpressionEvaluator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/utils/ExpressionParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/utils/ExpressionParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/main/kotlin/clpqr/utils/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/main/kotlin/it.unibo.tuprolog.clp.real/utils/Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/BaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/BaseTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/Dummy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/Dummy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/DumpTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/DumpTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/EntailedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/EntailedTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/SatisfyTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/SatisfyTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/TestUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/TestUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/mip/BBInfFiveTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/mip/BBInfFiveTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/mip/BBInfFourTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/mip/BBInfFourTests.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/mip/BBInfThreeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/mip/BBInfThreeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/optimization/InfTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/optimization/InfTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/optimization/MaximizeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/optimization/MaximizeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/optimization/MinimizeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/optimization/MinimizeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/optimization/SupTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/optimization/SupTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/utils/EquationDetectorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/utils/EquationDetectorTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/utils/ExpressionEvaluatorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/utils/ExpressionEvaluatorTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/utils/ExpressionParserTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/utils/ExpressionParserTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/utils/PrecisionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/utils/PrecisionTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clpqr/src/test/kotlin/clpqr/utils/ProblemTypeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clpqr/src/test/kotlin/it.unibo.tuprolog.clp.real/utils/ProblemTypeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,24 +51,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="ChocoKt" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ChocoKt" type="f1a62948:ProjectNode" />
-                <item name="clpfd" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ChocoKt" type="f1a62948:ProjectNode" />
-                <item name="clpfd" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ChocoKt" type="f1a62948:ProjectNode" />
-                <item name="clpfd" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -220,6 +71,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2HOu9GyEemkrDokYIFeDnNj39bW" />
   <component name="ProjectViewState">
@@ -278,7 +132,49 @@
       <option name="project" value="LOCAL" />
       <updated>1668182820327</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactor: rename folders of different modules">
+      <created>1668184151599</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668184151599</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix: path problems">
+      <created>1668184190628</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668184190628</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ci: test for clp libraries">
+      <created>1668184214625</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668184214625</updated>
+    </task>
+    <task id="LOCAL-00005" summary="docs: Apache License">
+      <created>1668244839563</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668244839563</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ci: useful plugins">
+      <created>1668248555149</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668248555149</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ci: plugin for publication on maven central repository">
+      <created>1668851735182</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668851735182</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,6 +190,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="build: update settings.gradle.kts" />
-    <option name="LAST_COMMIT_MESSAGE" value="build: update settings.gradle.kts" />
+    <MESSAGE value="refactor: rename folders of different modules" />
+    <MESSAGE value="fix: path problems" />
+    <MESSAGE value="ci: test for clp libraries" />
+    <MESSAGE value="docs: Apache License" />
+    <MESSAGE value="ci: useful plugins" />
+    <MESSAGE value="ci: plugin for publication on maven central repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: plugin for publication on maven central repository" />
   </component>
 </project>

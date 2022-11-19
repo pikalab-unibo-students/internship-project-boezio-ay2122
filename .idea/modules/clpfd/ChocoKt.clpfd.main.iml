@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":clpfd:main" external.linked.project.path="$MODULE_DIR$/../../../clpfd" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="ChocoKt" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="5" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
@@ -76,55 +76,5 @@
         </compilerArguments>
       </configuration>
     </facet>
-  </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
-    <output url="file://$MODULE_DIR$/../../../clpfd/build/classes/kotlin/main" />
-    <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../clpfd/src/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../../clpfd/src/main/kotlin" isTestSource="false" />
-    </content>
-    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
-    <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: it.unibo.tuprolog:solve-classic-jvm:0.30.3" level="project" />
-    <orderEntry type="library" name="Gradle: it.unibo.tuprolog:parser-theory-jvm:0.30.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20" level="project" />
-    <orderEntry type="library" name="Gradle: org.choco-solver:choco-solver:4.10.9" level="project" />
-    <orderEntry type="library" name="Gradle: org.choco-solver:choco-sat:4.10.6" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.guava:guava:30.1.1-jre" level="project" />
-    <orderEntry type="module" module-name="ChocoKt.clp-core.main" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20" level="project" />
-    <orderEntry type="library" name="Gradle: it.unibo.tuprolog:parser-jvm:0.30.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.7.20" level="project" />
-    <orderEntry type="library" name="Gradle: dk.brics.automaton:automaton:1.11-8" level="project" />
-    <orderEntry type="library" name="Gradle: org.jgrapht:jgrapht-core:1.4.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.knowm.xchart:xchart:3.8.1" level="project" />
-    <orderEntry type="library" name="Gradle: net.sf.trove4j:trove4j:3.0.3" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.guava:failureaccess:1.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.checkerframework:checker-qual:3.8.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.5.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.j2objc:j2objc-annotations:1.3" level="project" />
-    <orderEntry type="library" name="Gradle: it.unibo.tuprolog:solve-jvm:0.30.3" level="project" />
-    <orderEntry type="library" name="Gradle: it.unibo.tuprolog:parser-core-jvm:0.30.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.antlr:antlr4-runtime:4.11.1" level="project" />
-    <orderEntry type="library" name="Gradle: it.unibo.tuprolog:theory-jvm:0.30.3" level="project" />
-    <orderEntry type="library" name="Gradle: it.unibo.tuprolog:unify-jvm:0.30.3" level="project" />
-    <orderEntry type="library" name="Gradle: it.unibo.tuprolog:core-jvm:0.30.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jheaps:jheaps:0.11" level="project" />
-    <orderEntry type="library" name="Gradle: de.erichseifert.vectorgraphics2d:VectorGraphics2D:0.13" level="project" />
-    <orderEntry type="library" name="Gradle: de.rototor.pdfbox:graphics2d:0.32" level="project" />
-    <orderEntry type="library" name="Gradle: com.madgag:animated-gif-lib:1.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.7.20" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.pdfbox:pdfbox:2.0.24" level="project" />
-    <orderEntry type="library" name="Gradle: it.unibo.tuprolog:utils-jvm:0.30.3" level="project" />
-    <orderEntry type="library" name="Gradle: io.github.gciatto:kt-math-jvm:0.6.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.pdfbox:fontbox:2.0.24" level="project" />
-    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: it.unibo.tuprolog:dsl-theory-jvm:0.30.3" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: it.unibo.tuprolog:dsl-unify-jvm:0.30.3" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: it.unibo.tuprolog:dsl-core-jvm:0.30.3" level="project" />
   </component>
 </module>
